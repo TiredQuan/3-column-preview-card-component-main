@@ -1,0 +1,140 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 0.875rem;
+  background-color: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+span {
+  font-family: 'Big Shoulders Display',cursive;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+a {
+  color: #f2f2f2;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+.container {
+  margin: 10vw  auto;
+  width: 90vw;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 18.75rem auto;
+  }
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+  .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.cards .learn-more {
+  background-color: #f2f2f2;
+  width: 125px;
+  height: 40px;
+  display: block;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 800px) {
+  .cards .learn-more {
+    top: 30px;
+    margin: 5em 0 0 0;
+  }
+}
+
+img {
+  height: 28px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 270px;
+  height: 325px;
+  padding: 35px;
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    height: 400px;
+  }
+}
+
+.sedan {
+  background-color: #e38826;
+  border-radius: 5px 5px 0 0;
+}
+
+.sedan .learn-more {
+  color: #e38826;
+}
+
+@media screen and (min-width: 800px) {
+  .sedan {
+    border-radius: 5px 0 0 5px;
+  }
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.suv .learn-more {
+  color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+  border-radius: 0 0 5px 5px;
+}
+
+.luxury .learn-more {
+  color: #004241;
+}
+
+@media screen and (min-width: 800px) {
+  .luxury {
+    border-radius: 0 5px 5px 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
