@@ -1,0 +1,8 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: $font-size;
+    background-color: $very_light_gray;
+    font-family: 'Lexend Deca', sans-serif; 
+}

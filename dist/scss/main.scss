@@ -1,0 +1,86 @@
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'base/reset';
+@import 'base/typography';
+
+.container {
+    margin: 10vw  auto;
+    width: 90vw;
+    @media screen and (min-width: 800px) {
+       margin: 18.75rem auto;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 800px) {
+        flex-direction: row;;
+    }
+    .learn-more {
+        background-color: $very_light_gray;
+        width: 125px;
+        height: 40px;
+        display: block;
+        border-radius: 20px;
+        border: none;
+        font-family: 'Lexend Deca', sans-serif; 
+        font-weight: map-get($font-weights, normal );
+        font-size: $font-size;
+        
+        
+        @media screen and (min-width: 800px) {   
+            top: 30px;
+            margin: 5em 0 0 0;
+    }
+
+    }
+}
+img {
+    height: 28px;
+    display: block;
+    margin-bottom: 30px
+}
+
+.card {
+    width: 270px ;
+    height: 325px ;
+    padding: 35px;
+    @media screen and (min-width: 800px) {
+        height: 400px;
+    }
+}
+.sedan {
+    background-color: $bright_orange;
+    border-radius: 5px 5px 0 0;
+    .learn-more {
+        color: $bright_orange;
+    }
+    @media screen and (min-width: 800px) {   
+        
+        border-radius: 5px 0 0 5px;
+    }
+}
+.suv {
+    background-color: $dark_cyan;
+    .learn-more {
+        color :$dark_cyan;
+    }
+}
+.luxury {
+    background-color: $very_dark_cyan;
+    border-radius: 0 0 5px 5px;
+    .learn-more {
+        color: $very_dark_cyan;
+    }
+    @media screen and (min-width: 800px) {   
+        
+        border-radius: 0 5px 5px 0;
+    }
+}
+

@@ -1,0 +1,20 @@
+// font-family: 'Big Shoulders Display', cursive;
+// font-family: 'Lexend Deca', sans-serif;
+
+span {
+    font-family: 'Big Shoulders Display',cursive;
+    font-weight: map-get($font-weights , bold );
+    font-size: $font-size *  2;
+    color: $very_light_gray;
+    text-transform: uppercase;
+}
+
+a {
+    color: $very_light_gray;
+}
+
+p {
+    color: $transparent_white;
+    line-height: 1.5;
+    font-size: $font-size;
+}

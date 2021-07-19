@@ -1,0 +1,27 @@
+// Layout
+// Mobiles:375px=23.4375em
+// Desktop: 1440px =90em
+
+// Colors
+
+// Primary
+$bright_orange: hsl(31, 77%, 52%);
+$dark_cyan: hsl(184, 100%, 22%);
+$very_dark_cyan: hsl(179, 100%, 13%);
+
+// Neutral
+$transparent_white : hsla(0, 0%, 100%, 0.75);
+// (paragraphs)
+$very_light_gray : hsl(0, 0%, 95%);
+// (background, headings, buttons)
+
+// Typography
+
+// Body copy
+$font-size:  0.875rem;//0.9375rem;   //15px
+
+$font-weights: (
+    "normal": 400,
+    "bold": 700
+)
+
